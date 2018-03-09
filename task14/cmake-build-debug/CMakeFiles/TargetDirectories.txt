@@ -1,0 +1,3 @@
+/Users/lenar/Documents/ITIS/omp/task14/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/lenar/Documents/ITIS/omp/task14/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/lenar/Documents/ITIS/omp/task14/cmake-build-debug/CMakeFiles/task14.dir

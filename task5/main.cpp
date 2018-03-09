@@ -1,5 +1,6 @@
 #include <iostream>
 #include <omp.h>
+#include <random>
 
 #define SIZE 30
 
@@ -8,7 +9,9 @@ int main() {
 
     for (int i = 0; i < 6; i++) {
         for (int j = 0; j < 8; j++) {
-            d[i][j] = rand() % SIZE;
+            std::mt19937 gen { std::random_device()() };
+            std::uniform_int_distribution<> uid(0, SIZE);
+            d[i][j] = uid(gen);
             printf("%d ", d[i][j]);
         }
         printf("\n");
